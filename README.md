@@ -18,6 +18,8 @@
 ##### 四、 创建第二个controller
 
 实现查询数据库user表的用户信息
-
-  - 1. 先建立一个controller接收请求
+  - 1. 安装mybatis依赖包 jdbc驱动包
+  - 2. 新增application.properties的配置文件，配置mybatis相关信息
+  - 3. 在resources下新增generatorConfig.xml文件，配置mybits配置
+  - 4. 新建一个user model,列好user表的字段
 
