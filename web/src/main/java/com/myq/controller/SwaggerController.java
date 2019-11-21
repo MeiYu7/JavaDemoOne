@@ -1,5 +1,6 @@
 package com.myq.controller;
 
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,7 +13,9 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value="/swagger")
+@Api(value = "swagger测试控制器", tags = {"swagger测试控制器"})
 public class SwaggerController {
+
     @ApiOperation(value="获取用户信息", notes="根据id来获取用户详细信息")
     @ApiImplicitParam(name="id", value="用户ID", required=true, dataType="String")
     @RequestMapping(value="/{id}", method= RequestMethod.GET)

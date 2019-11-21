@@ -1,8 +1,10 @@
 package com.myq.mapper;
 
 import com.myq.model.Users;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
+
 
 public interface UsersMapper {
 

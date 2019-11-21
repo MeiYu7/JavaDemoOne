@@ -25,3 +25,9 @@
   - 5. 新增UserMapper接口
   - 6. 新增Userservice接口和UserServiceimpl实现类
   - 7. 新增resources.mapper文件夹，写对应的xml
+  - 8. 新增用户查询的controller
+  - 9. 运行报错，尝试加一个test测试一下 (报错原因是mapper的xml语法错误。 jdbcType 写成了javaType )
+  - 10. pom添加test依赖
+  - 11. UsersController里新增两个方法【列表查询用户、根据账号查询用户】
+  - 12. swagger测试成功
+

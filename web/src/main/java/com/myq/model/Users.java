@@ -9,7 +9,7 @@ import java.io.Serializable;
 public class Users implements Serializable {
 
     @ApiModelProperty(value = "id")
-    private int id;
+    private Integer id;
 
     @ApiModelProperty(value = "name")
     private String name;
@@ -21,7 +21,7 @@ public class Users implements Serializable {
     private String password;
 
     @ApiModelProperty(value = "sex")
-    private int sex;
+    private Integer sex;
 
     @ApiModelProperty(value = "info")
     private String info;
