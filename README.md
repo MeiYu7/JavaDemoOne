@@ -23,4 +23,5 @@
   - 3. 在resources下新增generatorConfig.xml文件，配置mybits配置
   - 4. 新建一个user model,列好user表的字段
   - 5. 新增UserMapper接口
-
+  - 6. 新增Userservice接口和UserServiceimpl实现类
+  - 7. 新增resources.mapper文件夹，写对应的xml
